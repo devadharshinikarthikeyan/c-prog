@@ -7,7 +7,7 @@ while(num!=0)
 {
 rem=num%10;
 result=result+rem*rem*rem;
-num=num%10;
+num=num/10;
 }
 if(result==num)
 printf("armstrong no");
