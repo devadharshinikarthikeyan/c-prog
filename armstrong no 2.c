@@ -20,5 +20,5 @@ if(i==num)
 printf("%d",i);
 }
 }
-retuen 0;
+return 0;
 }
