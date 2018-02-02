@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 void main()
 {
 int a;
 printf("enter the num");
-scanf("%d,&a);
+scanf("%d",&a);
 if(a%2==0)
 {
 printf("num is even");
