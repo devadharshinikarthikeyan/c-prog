@@ -7,7 +7,7 @@ b=(a=='a'||a=='e'||a=='i'||a=='o'||a=='u');
 c=(a=='A'||a=='E'||a=='I'||a=='O'||a=='U');
 if(b||c)
 {
-printf("letter is vowel"):
+printf("letter is vowel");
 }
 else
 {
