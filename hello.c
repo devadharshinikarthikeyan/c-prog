@@ -1,7 +1,8 @@
-#include<stdio.h>
-void main()
+int main()
 {
-int a;
-for(a=1;a<n;a++)
-printf("hello");
+    int count;
+        for(count=1;count<=25;count++)
+        {
+            printf("Hello\n");
+        }
 }
