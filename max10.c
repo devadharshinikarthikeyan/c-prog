@@ -5,17 +5,19 @@
     int c;
     printf("Enter ten values:");
     
-   for (i = 0; i < 10; i++) {
+   for (i = 0; i < 10; i++)
+   {
     scanf("%d", &a[i]);
     }
     
     c = a[0];
-    for (i = 0; i < 10; i++) {
-if (a[i] > c) {
-c = a[i];
+    for (i = 0; i < 10; i++) 
+    {
+    if (a[i] > c) 
+    {
+    c = a[i];
     }
     }
-    printf("
-    Greatest of ten numbers is %d", c);
+    printf("Greatest of ten numbers is %d", c);
     return 0;
   }
