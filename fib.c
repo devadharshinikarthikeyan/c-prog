@@ -1,24 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-  
-    int i, b[25];
+    int i, n, t1 = 0, t2 = 1, t;
 
-    
-    b[0] = 0;
+    printf("Enter the number of terms: ");
+    scanf("%d", &n);
 
-   
-    b[1] = 1;
+    printf("Fibonacci Series: ");
 
-   
-    for (i = 2; i < 10; i++) {
-        
-        b[i] = b[i - 1] + b[i - 2];
-    }
-    printf("The fibonacci series is as follows ");
-    
-    for (i = 0; i < 10; i++) {
-        printf("%d ", b[i]);
+    for (i = 1; i <= n; ++i)
+    {
+        printf("%d, ", t1);
+        t = t1 + t2;
+        t1 = t2;
+        t2 = t;
     }
     return 0;
 }
