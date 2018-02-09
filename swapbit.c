@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a = 70;
-    int b = 80;
-    printf(" value of i=%d k=%d before swapping", a, b);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf(" value of a=%d b=%d before swapping", a, b);
 
     a = a ^ b;
     b = a ^ b;
