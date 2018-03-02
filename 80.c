@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-int a,d;
-scanf("%d",&a);
-while(a!=0)
+int b,d;
+scanf("%d",&b);
+while(b!=0)
 {
 	d=a%10;
 	if(d%2!=0){
 	printf("%d ",d);
 	}
-	a=a/10;
+	b=b/10;
 }
 	return 0;
 }
