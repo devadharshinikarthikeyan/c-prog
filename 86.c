@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	char a[100];
+	char b[100];
 	int i,j,n,f=0;
-	scanf("%s",a);
-	n=strlen(a);
+	scanf("%s",b);
+	n=strlen(b);
 	for(i=0;i<n;i++)
 	{
 		for(j=i+1;j<n;j++)
 		{
-			if(a[i]==a[j])
+			if(b[i]==b[j])
 			{
 			f=1;
 			break;
